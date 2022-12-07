@@ -26,4 +26,11 @@ git add cloudyuga.jpeg
 if [ $? -eq 0 ];
 then
  status=`git status`
+ echo "status=$status"
 fi
+git config --global user.name "Rashida Hamdard"
+git config --global user.email "fani.rashida96@gmail.com"
+git commit -m "changes done and filetype changed to cloudyuga.jpeg from cloudyuga.png"
+git log
+
+
